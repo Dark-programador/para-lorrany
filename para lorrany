@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para Lorrany</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Georgia", serif;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1a0005;
+        background-image:
+          radial-gradient(circle at top left, #ff1493, transparent 40%),
+          radial-gradient(circle at bottom right, #c2185b, transparent 40%);
+        color: white;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #ff4d6d;
+        font-size: 36px;
+        text-shadow:
+          0 0 20px #c2185b,
+          0 0 40px #ff1493;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        color: #fce4ec;
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 25px;
+        letter-spacing: 1px;
+      }
+
+      .carta {
+        text-align: center;
+        max-width: 500px;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 30px 25px;
+        border-radius: 20px;
+        border: 1px solid #c2185b;
+        box-shadow: 0 0 30px rgba(194, 24, 91, 0.4);
+        line-height: 1.8;
+        font-size: 16px;
+        color: #fce4ec;
+      }
+
+      footer {
+        margin-top: 25px;
+        color: #ff4d6d;
+        font-size: 14px;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorrany</h1>
+    <h3>aqui, vai um texto, para você.</h3>
+
+    <div class="carta">
+      <p>
+        Lorrany, eu não consigo explicar o quanto eu gosto de você. Você
+        transformou minha vida por completo, apesar de todas as dificuldades,
+        você nunca me abandonou. sua mentalidade tá melhorando muito, e eu te
+        admiro, pois já passei pelo o que você passa. nós estamos construindo um
+        relacionamento lindo. esse site, não é algo muito grandioso, mas é oque
+        eu posso entregar, foi feito com muito carinho.
+      </p>
+    </div>
+
+    <footer>De Leilson para Lorrany</footer>
+  </body>
+</html>
